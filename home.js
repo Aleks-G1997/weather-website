@@ -1,5 +1,5 @@
 // API-Key zur Authentifizierung bei OpenWeatherMap
-const apiKey = "API_key"; 
+const apiKey = "9f93017891250db9c47e00ea73b350fb"; 
 
 // Liste der Städte in Deutschland, für die Wetterdaten abgerufen werden sollen
 const cities = ["Berlin", "Hamburg", "München", "Köln", "Frankfurt", "Stuttgart", "Düsseldorf", "Dresden", "Erfurt", "Nürnberg", "Hannover", "Rostock"];
