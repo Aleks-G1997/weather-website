@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This Week's Weather</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="weekly.css">
+</head>
+<body>
+    <h1>This Week's Weather</h1>
+
+    <section id="shine" class="half center" style="display: grid; place-items: center; margin: 20px;">
+        <div class="shine"></div>
+    </section>
+    
+    <div class="navigation-bar">
+        <a href="index.html">
+            <button id="today" class="navigation-button">Germany Weather-Map</button>
+        </a>
+        <a href="hourly.html">
+            <button id="hourly" class="navigation-button">Today's Hourly Weather</button>
+        </a>
+        <a href="weekly.html">
+            <button id="weekly" class="navigation-button">This Week's Weather</button>
+        </a>
+    </div>
+    
+    <h2>Search Bar</h2>
+    <div id="weather-container2">
+        <input type="text" id="searchbar" placeholder="Enter a city....">
+        <button id="search_button" onclick="getWeather()">Search</button>
+
+        <img id="weather-icon2" alt="weather Icon">
+
+        <div id="temp-div"></div>
+
+        <div id="weather-info"></div>
+
+        <div id="weekly-forecast"></div>
+
+    </div>
+</body>
+<script src="weekly.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+</html>
